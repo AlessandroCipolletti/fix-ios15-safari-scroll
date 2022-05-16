@@ -4,7 +4,7 @@
 * Fix that annoying scroll bug ios has had for many years;
 * Prevent pull to refresh whan needed;
 
-Look at index.ts.
+Get the code from preventScrollBugsIfNeeded.ts
 
 <a name="preventScrollBugsIfNeeded
 This fixes an annoying iOS15+ behavior on apple devices.
