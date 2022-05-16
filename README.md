@@ -8,9 +8,9 @@ Get the code from preventScrollBugsIfNeeded.ts
 
 
 ## preventScrollBugsIfNeeded
-* This fixes an annoying iOS15+ behavior on apple devices.
+* Fixes an annoying iOS15+ scroll bug on apple devices.
 * Prevents pull-to-refresh if the element you are pulling down has a scroll.
-* If <code>alwaysPreventPullToRefresh = true</code> ... prevents pull-to-refresh no matter where are you touching the screen.
+* If <code>alwaysPreventPullToRefresh = true</code> prevents pull-to-refresh no matter where are you touching the screen.
 
 I used a css class scrollable to identify the dom elements who needs to prevent pull to refresh.
 You can do it by using getComputedStyle(target).overflow === auto\|scroll, but its more demanding in terms of performance.
