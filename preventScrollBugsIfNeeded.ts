@@ -98,7 +98,7 @@ const preventScrollBugsIfNeeded = (
 /**
  * @function hideKeyboradIfNeeded
  * 3.3) If we have focus inside a text field and the ios keybord is visible on the screen,
- * preventing event defautl behavior prevents event the blur on the text field.
+ * preventing event default behavior prevents event the blur on the text field.
  * So we need to do it by hand to hide the keyboard.
  *
  * @returns {void}
