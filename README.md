@@ -12,8 +12,8 @@ Get the code from preventScrollBugsIfNeeded.ts
 * Prevents pull-to-refresh if the element you are pulling down has a scroll.
 * If <code>alwaysPreventPullToRefresh = true</code> prevents pull-to-refresh no matter where are you touching the screen.
 
-I used a css class scrollable to identify the dom elements who needs to prevent pull to refresh.
-You can do it by using getComputedStyle(target).overflow === auto\|scroll, but its more demanding in terms of performance.
+I used a css class <code>scrollable</code> to identify the dom elements who need to prevent pull to refresh.
+You can do it by using <code>getComputedStyle(target).overflow === auto\|scroll</code>, but its more demanding in terms of performance.
 
 (event, [alwaysPreventPullToRefresh]) ⇒ <code>void</code>
 
