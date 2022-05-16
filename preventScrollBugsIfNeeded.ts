@@ -113,6 +113,3 @@ const hideKeyboradIfNeeded = (): void => {
     }
   }
 }
-
-
-export default preventScrollBugsIfNeeded
